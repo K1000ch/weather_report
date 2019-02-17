@@ -16,7 +16,7 @@ $(function(){
             city_name : "kanagawa",
             city_name_jp : "神奈川",
             city_id : 1860293,   
-        },
+        },/*
         ebetsu : {
             city_name : "ebetsu",
             city_name_jp : "江別",
@@ -26,7 +26,7 @@ $(function(){
             city_name : "canberra",
             city_name_jp : "キャンベラ",
             city_id : 2172517,   
-        }
+        }*/
     }
     
     //天気リスト
