@@ -1,0 +1,79 @@
+/*念のためにスタイルをリセット*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#weather_report_1347 *{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*スタイルを指定*/
+
+
+#weather_report_1347 .swiper-slide{
+    width: 316px;
+    height: 46px;
+}
+
+
+#weather_report_1347{
+    height: 46px;
+    width: 316px;
+    border: solid 2px #999999;
+}
+
+#weather_report_1347 .cover{
+    height: 50px;
+    width: 320px;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+}
+
+
+#weather_report_1347 .swiper-slide{
+    display: flex;
+}
+
+
+
+#weather_report_1347 .weather_icon{
+    height: 38px;
+    width: 38px;
+    padding: 3px;
+    background-color: white;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+#weather_report_1347 .weather_text{
+    width: 270px;
+    font-size: 22px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+#weather_report_1347 .clear{
+    background-color: orange;
+}
+#weather_report_1347 .clouds{
+    background-color: gainsboro;
+}
+#weather_report_1347 .snow{
+    background-color: azure;
+}
+#weather_report_1347 .rain{
+    background-color: dodgerblue;
+}
+#weather_report_1347 .mist{
+    background-color: ghostwhite;
+}
+#weather_report_1347 .unknown{
+    background-color: ghostwhite;
+}
+#weather_report_1347 .error{
+    background-color: ghostwhite;
+}
